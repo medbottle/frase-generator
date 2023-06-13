@@ -1,0 +1,31 @@
+body {
+    overflow: hidden;
+    background-color: aliceblue;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+    }
+
+#butao {
+    border: solid 4px grey;
+    border-radius: 5%;
+}
+
+#frase {
+    margin-top: 1.5%;
+    justify-content: center;
+    text-align: center;
+    min-height: 6vh;
+    width: 60%; 
+}
+
+.text {
+    font-family: 'Raleway', sans-serif;
+}
